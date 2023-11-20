@@ -145,3 +145,9 @@ input{
     }
   }
   
+.week5_img img {   
+    display: block;
+    flex-basis: 48%;
+    width: 1000px;
+    height: auto;
+}
