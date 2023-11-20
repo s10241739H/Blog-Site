@@ -1,0 +1,147 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color:red;
+}
+
+h2:target{
+    color: red;
+    background: darkseagreen;
+    padding: 10px;
+}
+
+header{
+    font-family: 'Kanit', sans-serif;
+}
+
+.toph1 {
+    color:darkgreen;
+    text-align: center;
+    background-color: #AFA396;
+    padding:20px;
+}
+
+.green{
+    color: green;
+    text-align: center;
+}
+
+.dg{
+    color: darkgreen;
+    text-align: center;
+}
+
+.dsg{
+    color: darkseagreen;
+    text-align: center;
+}
+
+img{
+    
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    color:brown;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+.navbar {
+    padding: 30px;
+    float: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .sports-history{
+    color: orange;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+.computing-history{
+    color: green;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+p{
+            
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#heading{
+    font-family: Arial;
+      background-color: red;
+      color: white;
+      font-family: 'Bebas Neue', sans-serif;
+}
+
+hr{
+    background-color: black;
+    height: 10px;
+}
+
+.none{
+    background-color: black;
+    height: 1px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border: 0;
+    cursor: pointer;
+ }
+
+
+
+ container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .split {
+    flex-basis: 48%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .split img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .button{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    
+  }
+
+
+  @media (max-width: 500px) {
+    .split {
+      flex: 1 100%;
+    }
+  }
+  
